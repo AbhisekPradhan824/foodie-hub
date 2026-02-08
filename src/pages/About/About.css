@@ -1,0 +1,235 @@
+.about-page {
+  background: #fff8f0;
+}
+
+/* Hero Section */
+.about-hero {
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+  padding: 80px 0;
+  text-align: center;
+}
+
+.about-title {
+  color: white !important;
+  font-weight: 700 !important;
+  margin-bottom: 16px !important;
+}
+
+.about-title .gradient-text {
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-subtitle {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-weight: 400 !important;
+}
+
+/* Stats Section */
+.stats-section {
+  padding: 60px 0;
+  background: white;
+  margin-top: -40px;
+  border-radius: 40px 40px 0 0;
+  position: relative;
+  z-index: 1;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.stat-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  color: white;
+}
+
+.stat-icon svg {
+  font-size: 28px;
+}
+
+.stat-value {
+  font-weight: 700 !important;
+  color: #2d3436;
+  margin-bottom: 4px !important;
+}
+
+.stat-label {
+  color: #636e72;
+}
+
+/* Story Section */
+.story-section {
+  padding: 80px 0;
+  background: #fff8f0;
+}
+
+.story-text {
+  color: #636e72;
+  line-height: 1.8 !important;
+  margin-bottom: 16px !important;
+}
+
+.story-image {
+  position: relative;
+}
+
+.story-image img {
+  width: 100%;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.image-badge {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+  color: white;
+  padding: 20px 30px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(255, 107, 53, 0.3);
+}
+
+.image-badge h4 {
+  font-weight: 700 !important;
+  line-height: 1;
+}
+
+/* Values Section */
+.values-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+  color: #2d3436;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #636e72;
+  margin-bottom: 50px !important;
+}
+
+.value-card {
+  text-align: center;
+  padding: 20px;
+  height: 100%;
+  border-radius: 20px !important;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06) !important;
+}
+
+.value-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1) !important;
+}
+
+.value-icon {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 107, 53, 0.1) 0%,
+    rgba(247, 147, 30, 0.1) 100%
+  );
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  color: #ff6b35;
+}
+
+.value-icon svg {
+  font-size: 32px;
+}
+
+.value-title {
+  font-weight: 600 !important;
+  color: #2d3436;
+  margin-bottom: 12px !important;
+}
+
+.value-description {
+  color: #636e72;
+  line-height: 1.6 !important;
+}
+
+/* Team Section */
+.team-section {
+  padding: 80px 0;
+  background: #fff8f0;
+}
+
+.team-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px !important;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06) !important;
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1) !important;
+}
+
+.team-avatar {
+  width: 120px !important;
+  height: 120px !important;
+  margin: 0 auto 20px !important;
+  border: 4px solid #ff6b35;
+}
+
+.team-name {
+  font-weight: 600 !important;
+  color: #2d3436;
+  margin-bottom: 4px !important;
+}
+
+.team-role {
+  color: #ff6b35;
+  font-weight: 500 !important;
+  margin-bottom: 8px !important;
+}
+
+.team-description {
+  color: #636e72;
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+    padding: 60px 0;
+  }
+
+  .about-title {
+    font-size: 2rem !important;
+  }
+
+  .story-section,
+  .values-section,
+  .team-section {
+    padding: 60px 0;
+  }
+
+  .image-badge {
+    bottom: -10px;
+    right: 10px;
+    padding: 15px 20px;
+  }
+}

@@ -1,0 +1,116 @@
+.register-page {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #fff8f0 0%, #ffe8d6 100%);
+  padding: 40px 0;
+}
+
+.register-paper {
+  padding: 40px;
+  border-radius: 24px !important;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1) !important;
+}
+
+.register-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.register-title {
+  font-weight: 700 !important;
+  color: #2d3436;
+  margin-bottom: 8px !important;
+}
+
+.register-subtitle {
+  color: #636e72;
+}
+
+.register-input {
+  margin-bottom: 16px !important;
+}
+
+.register-input .MuiOutlinedInput-root {
+  border-radius: 12px;
+}
+
+.terms-checkbox {
+  margin-bottom: 16px !important;
+}
+
+.terms-checkbox a {
+  color: #ff6b35;
+  text-decoration: none;
+}
+
+.terms-checkbox a:hover {
+  text-decoration: underline;
+}
+
+.register-btn {
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%) !important;
+  border-radius: 30px !important;
+  padding: 14px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  font-size: 1rem !important;
+  margin-top: 10px !important;
+}
+
+.register-btn:hover {
+  box-shadow: 0 8px 25px rgba(255, 107, 53, 0.35) !important;
+}
+
+.register-divider {
+  margin: 30px 0 !important;
+}
+
+.register-divider .MuiTypography-root {
+  color: #999;
+}
+
+.social-login {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.social-btn {
+  flex: 1;
+  border-radius: 30px !important;
+  padding: 12px !important;
+  text-transform: none !important;
+  font-weight: 500 !important;
+}
+
+.social-btn.google {
+  border-color: #db4437 !important;
+  color: #db4437 !important;
+}
+
+.social-btn.facebook {
+  border-color: #4267b2 !important;
+  color: #4267b2 !important;
+}
+
+.login-link {
+  text-align: center;
+}
+
+.login-link a {
+  color: #ff6b35;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .register-paper {
+    padding: 24px;
+  }
+
+  .social-login {
+    flex-direction: column;
+  }
+}

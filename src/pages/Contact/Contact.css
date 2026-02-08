@@ -1,0 +1,186 @@
+.contact-page {
+  background: #fff8f0;
+}
+
+/* Hero Section */
+.contact-hero {
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+  padding: 80px 0;
+  text-align: center;
+}
+
+.contact-title {
+  color: white !important;
+  font-weight: 700 !important;
+  margin-bottom: 16px !important;
+}
+
+.contact-title .gradient-text {
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-subtitle {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-weight: 400 !important;
+}
+
+.contact-container {
+  padding: 60px 0;
+  margin-top: -40px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Contact Info */
+.info-title {
+  font-weight: 600 !important;
+  color: #2d3436;
+  margin-bottom: 8px !important;
+}
+
+.info-subtitle {
+  color: #636e72;
+  margin-bottom: 24px !important;
+}
+
+.contact-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.contact-info-card {
+  border-radius: 16px !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06) !important;
+  transition: all 0.3s ease;
+}
+
+.contact-info-card:hover {
+  transform: translateX(10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
+.contact-info-card .MuiCardContent-root {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.info-icon {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-shrink: 0;
+}
+
+.info-content {
+  flex: 1;
+}
+
+.info-label {
+  font-weight: 600 !important;
+  color: #2d3436;
+  margin-bottom: 2px !important;
+}
+
+.info-content .MuiTypography-body2 {
+  color: #2d3436;
+}
+
+.info-content .MuiTypography-caption {
+  color: #636e72;
+}
+
+.whatsapp-btn {
+  background: #25d366 !important;
+  color: white !important;
+  border-radius: 30px !important;
+  padding: 12px 30px !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  width: 100%;
+}
+
+.whatsapp-btn:hover {
+  background: #20bd5a !important;
+}
+
+/* Contact Form */
+.contact-form-paper {
+  padding: 40px;
+  border-radius: 24px !important;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08) !important;
+}
+
+.form-title {
+  font-weight: 600 !important;
+  color: #2d3436;
+  margin-bottom: 8px !important;
+}
+
+.form-subtitle {
+  color: #636e72;
+  margin-bottom: 30px !important;
+}
+
+.contact-form-paper .MuiTextField-root {
+  margin-bottom: 8px;
+}
+
+.contact-form-paper .MuiOutlinedInput-root {
+  border-radius: 12px;
+}
+
+.submit-btn {
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%) !important;
+  border-radius: 30px !important;
+  padding: 14px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  font-size: 1rem !important;
+  margin-top: 16px !important;
+}
+
+.submit-btn:hover {
+  box-shadow: 0 8px 25px rgba(255, 107, 53, 0.35) !important;
+}
+
+/* Map Section */
+.map-section {
+  margin-top: 60px;
+}
+
+.map-title {
+  font-weight: 600 !important;
+  color: #2d3436;
+  text-align: center;
+  margin-bottom: 24px !important;
+}
+
+.map-container {
+  border-radius: 24px !important;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08) !important;
+}
+
+@media (max-width: 768px) {
+  .contact-hero {
+    padding: 60px 0;
+  }
+
+  .contact-title {
+    font-size: 2rem !important;
+  }
+
+  .contact-form-paper {
+    padding: 24px;
+  }
+}

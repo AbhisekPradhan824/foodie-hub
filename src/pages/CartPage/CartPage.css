@@ -1,0 +1,234 @@
+.cart-page {
+  min-height: calc(100vh - 70px);
+  background: #fff8f0;
+  padding: 40px 0;
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.cart-title {
+  font-weight: 700 !important;
+  color: #2d3436;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cart-icon {
+  color: #ff6b35;
+  font-size: 36px !important;
+}
+
+.clear-cart-btn {
+  border-radius: 25px !important;
+  text-transform: none !important;
+}
+
+.cart-items-container {
+  padding: 24px;
+  border-radius: 20px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06) !important;
+}
+
+.items-count {
+  font-weight: 600 !important;
+  margin-bottom: 20px !important;
+  color: #2d3436;
+}
+
+/* Order Summary */
+.order-summary {
+  padding: 24px;
+  border-radius: 20px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06) !important;
+  position: sticky;
+  top: 90px;
+}
+
+.summary-title {
+  font-weight: 600 !important;
+  margin-bottom: 20px !important;
+  color: #2d3436;
+}
+
+.coupon-section {
+  margin-bottom: 20px;
+}
+
+.coupon-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px !important;
+  color: #2d3436;
+  font-weight: 600 !important;
+}
+
+.coupon-label svg {
+  color: #ff6b35;
+  font-size: 18px;
+}
+
+.coupon-input-wrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.coupon-input {
+  flex: 1;
+}
+
+.coupon-input .MuiOutlinedInput-root {
+  border-radius: 10px;
+}
+
+.apply-coupon-btn {
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%) !important;
+  border-radius: 10px !important;
+  text-transform: none !important;
+  white-space: nowrap;
+}
+
+.remove-coupon-btn {
+  border-radius: 10px !important;
+  text-transform: none !important;
+}
+
+.coupon-success {
+  color: #00b894;
+  display: block;
+  margin-top: 8px;
+}
+
+.available-coupons {
+  margin-top: 8px;
+  padding: 8px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.available-coupons .MuiTypography-root {
+  color: #636e72;
+}
+
+.summary-divider {
+  margin: 20px 0 !important;
+}
+
+.price-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-row .free {
+  color: #00b894;
+  font-weight: 600;
+}
+
+.discount-row .discount-amount {
+  color: #00b894;
+  font-weight: 600;
+}
+
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.total-amount {
+  font-weight: 700 !important;
+  color: #ff6b35;
+}
+
+.free-delivery-note {
+  display: block;
+  text-align: center;
+  color: #636e72;
+  margin-bottom: 16px;
+  padding: 8px;
+  background: #fff5f0;
+  border-radius: 8px;
+}
+
+.checkout-btn {
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%) !important;
+  border-radius: 30px !important;
+  padding: 14px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  font-size: 1rem !important;
+  margin-bottom: 12px !important;
+}
+
+.checkout-btn:hover {
+  box-shadow: 0 8px 25px rgba(255, 107, 53, 0.35) !important;
+}
+
+.continue-shopping-btn {
+  color: #ff6b35 !important;
+  text-transform: none !important;
+}
+
+/* Empty Cart */
+.empty-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-cart-content {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.empty-cart-icon {
+  font-size: 100px !important;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.empty-cart-title {
+  font-weight: 700 !important;
+  color: #2d3436;
+  margin-bottom: 12px !important;
+}
+
+.empty-cart-text {
+  color: #636e72;
+  max-width: 400px;
+  margin: 0 auto 30px !important;
+}
+
+.explore-menu-btn {
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%) !important;
+  border-radius: 30px !important;
+  padding: 14px 36px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+}
+
+@media (max-width: 768px) {
+  .cart-header {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .order-summary {
+    position: static;
+  }
+}

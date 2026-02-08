@@ -1,0 +1,254 @@
+.order-success-page {
+  min-height: calc(100vh - 70px);
+  background: linear-gradient(135deg, #fff8f0 0%, #ffe8d6 100%);
+  padding: 40px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.success-paper {
+  padding: 40px;
+  border-radius: 24px !important;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Success Header */
+.success-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.success-icon {
+  font-size: 80px !important;
+  color: #00b894;
+  margin-bottom: 16px;
+}
+
+.success-title {
+  font-weight: 700 !important;
+  color: #2d3436;
+  margin-bottom: 8px !important;
+}
+
+.success-subtitle {
+  color: #636e72;
+}
+
+/* Order Info */
+.order-info {
+  display: flex;
+  justify-content: space-around;
+  background: #f8f9fa;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.order-info-item {
+  text-align: center;
+}
+
+.order-info-item .MuiTypography-caption {
+  color: #636e72;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.order-info-item h6 {
+  font-weight: 600 !important;
+  color: #2d3436;
+}
+
+.order-total {
+  color: #ff6b35 !important;
+}
+
+.success-divider {
+  margin: 24px 0 !important;
+}
+
+/* Order Tracking */
+.order-tracking {
+  margin-bottom: 24px;
+}
+
+.tracking-title {
+  font-weight: 600 !important;
+  color: #2d3436;
+  margin-bottom: 20px !important;
+  text-align: center;
+}
+
+.order-stepper {
+  margin-bottom: 16px;
+}
+
+.step-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0e0e0;
+  color: #999;
+  transition: all 0.3s ease;
+}
+
+.step-icon.active {
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+  color: white;
+  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+}
+
+.step-icon svg {
+  font-size: 20px;
+}
+
+.estimated-time {
+  text-align: center;
+  color: #636e72;
+  background: #fff5f0;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+/* Delivery Info */
+.delivery-info {
+  margin-bottom: 24px;
+}
+
+.delivery-title {
+  font-weight: 600 !important;
+  color: #2d3436;
+  margin-bottom: 12px !important;
+}
+
+.delivery-info .MuiTypography-body2 {
+  color: #636e72;
+  line-height: 1.8;
+}
+
+/* Order Items Summary */
+.order-items-summary {
+  margin-bottom: 24px;
+}
+
+.items-title {
+  font-weight: 600 !important;
+  color: #2d3436;
+  margin-bottom: 16px !important;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.order-item:last-child {
+  border-bottom: none;
+}
+
+.order-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.item-details .MuiTypography-body1 {
+  font-weight: 500;
+  color: #2d3436;
+}
+
+.item-details .MuiTypography-caption {
+  color: #636e72;
+}
+
+.item-total {
+  font-weight: 600 !important;
+  color: #ff6b35;
+}
+
+/* Action Buttons */
+.success-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.track-btn {
+  border-radius: 30px !important;
+  padding: 12px 36px !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  border-color: #ff6b35 !important;
+  color: #ff6b35 !important;
+}
+
+.track-btn:hover {
+  background: rgba(255, 107, 53, 0.1) !important;
+}
+
+.continue-btn {
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%) !important;
+  border-radius: 30px !important;
+  padding: 12px 36px !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+}
+
+.continue-btn:hover {
+  box-shadow: 0 8px 25px rgba(255, 107, 53, 0.35) !important;
+}
+
+/* No Order */
+.no-order-container {
+  padding: 60px 0;
+}
+
+.no-order-paper {
+  padding: 60px;
+  text-align: center;
+  border-radius: 24px !important;
+}
+
+.no-order-paper h5 {
+  color: #636e72;
+  margin-bottom: 20px;
+}
+
+.menu-btn {
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%) !important;
+  border-radius: 30px !important;
+  text-transform: none !important;
+}
+
+@media (max-width: 768px) {
+  .success-paper {
+    padding: 24px;
+  }
+
+  .order-info {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .success-actions {
+    flex-direction: column;
+  }
+
+  .track-btn,
+  .continue-btn {
+    width: 100%;
+  }
+}
